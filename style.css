@@ -135,6 +135,10 @@ h6 {
 	}
 }
 
+.social li a {
+	color: rgba(167, 146, 129, 0.6);
+}
+
 .social:hover > li {
   opacity: 0.25;
 }
