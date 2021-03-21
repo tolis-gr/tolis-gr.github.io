@@ -143,6 +143,23 @@ h6 {
   opacity: 0.25;
 }
 
+.corner-ribbon{
+	width: 300px;
+	background: orange;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: black;
+	position: fixed;
+	top: 50px;
+	right: -75px;
+	left: auto;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	box-shadow: 0 0 5px white;
+}
+
 .social:hover > li:hover {
   opacity: 1;
 }
